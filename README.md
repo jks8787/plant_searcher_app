@@ -21,4 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* resources: http://statweb.stanford.edu/~sabatti/data.html, https://plants.usda.gov/java/
