@@ -30,11 +30,6 @@ module AlgoliaSearchable
      'symbol'
    ]
 
-   # https://www.algolia.com/doc/api-client/ruby/parameters#unretrievableattributes
-   SEARCH_TYPE_TOLERANCE_DISABLED = [
-     'symbol',
-   ]
-
   included do
     algoliasearch AlgoliaSearchable::SEARCH_INDEX_SETTINGS do
       attribute AlgoliaSearchable::SEARCH_ATTRIBUTES
